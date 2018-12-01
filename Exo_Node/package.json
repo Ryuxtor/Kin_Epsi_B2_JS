@@ -1,37 +1,24 @@
 {
-  "name": "maxime_le_texier_epsi_b2_js",
+  "name": "exo_node",
   "version": "1.0.0",
-  "description": "",
+  "description": "exo avec node",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MaximeLT/Maxime_Le_Texier_epsi_B2_js.git"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryuxtor/Kin_Epsi_B2_JS.git"
+  },
   "bugs": {
-    "url": "https://github.com/MaximeLT/Maxime_Le_Texier_epsi_B2_js/issues"
+    "url": "https://github.com/Ryuxtor/Kin_Epsi_B2_JS/issues"
   },
-  "homepage": "https://github.com/MaximeLT/Maxime_Le_Texier_epsi_B2_js#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "http-server": "^0.11.1",
-    "socket.io": "^2.1.1"
-  }
-}
-
-{
-  "name": "socket-chat-example",
-  "version": "0.0.1",
-  "description": "my first socket.io app",
-  "dependencies": {
-    "express": "^4.15.2",
-    "socket.io": "^1.7.3"
-  },
-  "scripts": {
-    "start": "node index.js"
-  }
+  "homepage": "https://github.com/Ryuxtor/Kin_Epsi_B2_JS#readme"
 }
