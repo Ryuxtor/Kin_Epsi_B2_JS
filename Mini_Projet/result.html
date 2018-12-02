@@ -57,11 +57,12 @@
 		</tr>
 	</table>
 	
-<br>
+	<br>
 
-<p>si une école n'à pas encore noté, appuyez sur ce bouton</p> <br>
-<button onclick="back()">Retour</button>
+	<p>si une école n'à pas encore noté, appuyez sur ce bouton</p> <br>
+	<button onclick="back()">Retour</button>
 </body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript">
 	var xhttp = new XMLHttpRequest();
 	var parsedResults = null;
@@ -146,18 +147,12 @@
 			document.getElementById("99").innerHTML = classement[0][1] ;
 
 		}
-		
 	}
 	xhttp.open("GET", "/?oui=data", true);
-        xhttp.send();
-        function back(){
-			alert("Retour page de notation");
-			document.location.href="http://localhost:1025/?oui=note"
-		}
-
-
-
-
-
+	xhttp.send();
+	function back(){
+		alert("Retour page de notation");
+		document.location.href="http://localhost:1025/?oui=note"
+	}
 </script>
 </html>

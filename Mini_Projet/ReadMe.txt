@@ -10,6 +10,7 @@ Comment faire fonctionner le miniprojet:
 -dirigez vous dans le dossier de l'exercice (celui ou vous vous situez en théorie)
 -dans le command prompt de node: entrez la commande suivante: npm init, appuyez sur enter jusqu'o "is this ok?" dans le terminal, réappuyez sur entrez.
 -toujours dans le command prompt: entrez la commande suivante: npm install express
+-toujours dans le command prompt: entrez la commande suivante: npm install fs
 -Toujours dans le command prompt: entrez la commande suivante: node server.js
 -Le commande prompt devrais indiqué qu'il écoute sur le port 1025
 -Allez dans votre navigateur internet préféré et tappez cette Url: http://localhost:1025/?oui=note
